@@ -1,0 +1,15 @@
+[project]
+name = "stablezero123-comfyui"
+description = "StableZero123 is a node wrapper that uses the model and technique provided [here](https://github.com/SUDO-AI-3D/zero123plus/). It uses the Zero123plus model to generate 3D views using just one image."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["diffusers~=0.21.4"]
+
+[project.urls]
+Repository = "https://github.com/deroberon/StableZero123-comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "StableZero123-comfyui"
+Icon = ""
